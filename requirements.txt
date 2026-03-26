@@ -1,0 +1,66 @@
+
+
+
+
+
+# backend/
+# ├── app/
+# │   ├── __init__.py
+# │   ├── main.py
+# │   ├── core/
+# │   │   ├── __init__.py
+# │   │   ├── config.py
+# │   │   ├── database.py
+# │   │   ├── security.py
+# │   │   └── deps.py
+# │   ├── models/
+# │   │   ├── __init__.py
+# │   │   ├── base.py
+# │   │   ├── clinic.py
+# │   │   ├── user.py
+# │   │   ├── patient.py
+# │   │   ├── appointment.py
+# │   │   ├── medical_record.py
+# │   │   ├── lab_result.py
+# │   │   ├── service.py
+# │   │   └── payment.py
+# │   ├── schemas/
+# │   │   ├── __init__.py
+# │   │   ├── auth.py
+# │   │   ├── clinic.py
+# │   │   ├── user.py
+# │   │   ├── patient.py
+# │   │   ├── appointment.py
+# │   │   ├── medical_record.py
+# │   │   ├── lab_result.py
+# │   │   ├── service.py
+# │   │   └── payment.py
+# │   ├── api/
+# │   │   ├── __init__.py
+# │   │   └── v1/
+# │   │       ├── __init__.py
+# │   │       ├── router.py
+# │   │       ├── auth.py
+# │   │       ├── clinics.py
+# │   │       ├── users.py
+# │   │       ├── patients.py
+# │   │       ├── appointments.py
+# │   │       ├── medical_records.py
+# │   │       ├── lab_results.py
+# │   │       ├── services.py
+# │   │       └── payments.py
+# │   ├── services/
+# │   │   ├── __init__.py
+# │   │   ├── auth_service.py
+# │   │   ├── clinic_service.py
+# │   │   ├── patient_service.py
+# │   │   ├── appointment_service.py
+# │   │   └── report_service.py
+# │   └── utils/
+# │       ├── __init__.py
+# │       ├── pdf_generator.py
+# │       └── excel_generator.py
+# ├── alembic/
+# ├── alembic.ini
+# ├── .env
+# └── requirements.txt
